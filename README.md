@@ -8,7 +8,7 @@ do sistema operacional.</strong></p>
 <p>perf stat dd if=/dev/zero of=test.iso bs=10M count=1
  == executa um comando e coleta estatísticas de desempenho do Linux durante 
 a execução do comando.</p>
-![img/dd-command.png]
+
 <img src="img/dd-command.png">
 <p>perf record ./programa == gera perfil do programa</p>
 <p>perf report == le os dados do perfil do programa</p>
