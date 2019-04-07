@@ -21,7 +21,15 @@ a execução do comando.</p>
 <img src="img/dd-command.png">
 
 
+<h2>Comando Time</h2>
+<p>Ele é usado para determinar o tempo de execução de uma operação específica.</p>
+<p>Ao final da execução aparecem três resultados:</p>
+<ul>
+  <li>Real - se refere a tempo decorrido entre a execução e a conclusão do comando</li>
+  <li>User - é o tempo gasto pelo usuário no processador</li
+  <li>Sys - é o tempo usado pelo sistema (Kernel)para executar o comando </li
 
+</ul>
 
 <p>perf record ./programa == gera perfil do programa</p>
 <p>perf report == le os dados do perfil do programa</p>
